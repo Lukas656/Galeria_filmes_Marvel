@@ -1,0 +1,496 @@
+
+*{margin: 0;}
+
+article{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    
+}
+header{
+    background-color: #000000;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+nav {
+    justify-content: space-between;
+}
+.temaTop{
+    width: 155px;
+}
+#sol , #lua{
+    height: 2.3rem;
+    width: 2.9rem;
+    border-radius: 3px;
+}
+
+#lua{
+    margin-left: 9px;
+}
+#sol:hover, #lua:hover{
+    background-color: rgb(216, 0, 0);
+}
+
+nav .theme{
+    padding: 5px;
+    margin-left: 25px;
+    width: 10%;
+    height: 3em;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: .8rem;
+}
+
+ul li:last-child{
+    background: rgb(110, 1, 1);
+    color:white;
+    padding: .8rem;
+}
+
+.conteiner{
+    display:grid;
+    grid-template-columns: 100%;
+}
+
+aside{
+width: 100%;
+}
+
+
+main{
+    flex:1;
+}
+section{
+   text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 10%;
+   gap: 1rem;
+}
+section h1{
+    width: 200%;
+    border-bottom: 1px solid;
+}
+.gallery img{
+    width: 100%;
+    height: 200px;
+}
+.gallery{
+display: flex;
+flex-wrap: wrap;
+}
+.selecionar{
+    display: flex;
+}
+.selecionar button{
+    background-color: rgba(201, 0, 0, 0.813);
+    font-size: 14px;
+    width: 50%;
+}
+
+button:hover:not(.active) {
+    background-color: rgb(41, 41, 41);
+    color: white;
+  }
+
+
+.cards{
+    background-color: rgb(5, 5, 116);
+    color: white;
+    font-family: cursive;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 180px;
+} 
+#seriado{
+    background-color: #ff0707;
+}
+
+.cards h2,.cards h3{
+font-size: 20px;
+}
+.linkTrailer{
+    color: white;
+}
+
+.topo{
+    display: flex;
+    justify-content: center;
+}
+.topo a{
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-color: rgb(78, 77, 77);
+    border: 1px solid;
+}
+
+
+footer{
+    margin-top: auto;
+    background: gray;
+    color:white;
+    height: 5rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    color: white;
+}
+.caixaPesquisa{
+    width: 100%;
+    height: auto;
+}
+.caixaPesquisa input{
+    color: White;
+    border: 2px solid #ff0707;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: #000000;
+    max-width: 190px;
+}   
+.caixaPesquisa button{
+    color: #ff0707;
+    border: 2px solid #ff0707;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+   .input:active {
+    box-shadow: 2px 2px 15px #8707ff inset;
+   }
+.geral{
+    display: none;
+}
+.cronologia{
+    display:none;
+    flex-wrap:wrap;
+}
+.f1{
+ display: none;
+ flex-wrap: wrap;
+}
+.f2{
+    display: none;
+    flex-wrap: wrap;
+}
+.f3{
+    display: none;
+    flex-wrap: wrap;;
+}
+.f4{
+    display: none;
+    flex-wrap: wrap;
+}
+.f5{
+    display: none;
+    flex-wrap: wrap;
+}
+.f6{
+    display: none;
+    flex-wrap: wrap;
+}
+.series{
+    display:none;
+    flex-wrap:wrap;
+}
+.producao{
+    display:none;
+    flex-wrap:wrap;
+}
+
+#prod0{
+    display: none;
+}
+#prod1{
+    display: none;
+}
+#prod2{
+    display: none;
+}
+#prod3{
+    display: none;
+}
+#prod4{
+    display: none;
+}
+#prod5{
+    display: none;
+}
+#prod6{
+    display: none;
+}
+#prod7{
+    display: none;
+}
+#prod8{
+    display: none;
+}
+#prod9{
+    display: none;
+}
+#prod10{
+    display: none;
+}
+#prod11{
+    display: none;
+}
+#prod12{
+    display: none;
+}
+#prod13{
+    display: none;
+}
+#prod14{
+    display: none;
+}
+#prod15{
+    display: none;
+}
+#prod16{
+    display: none;
+}
+#prod17{
+    display: none;
+}
+#prod18{
+    display: none;
+}
+#prod19{
+    display: none;
+}
+#prod019{
+    display: none;
+}
+#prod20{
+    display: none;
+}
+#prod21{
+    display: none;
+}
+#prod22-1{
+    display: none;
+}
+#prod22-2{
+    display: none;
+}
+#prod22{
+    display: none;
+}
+#prod23{
+    display: none;
+}
+#prod24{
+    display: none;
+}
+#prod25{
+    display: none;
+}
+#prod26{
+    display: none;
+}
+#prod27{
+    display: none;
+}
+#prod28{
+    display: none;
+}
+#prod29{
+    display: none;
+}
+#prod30{
+    display: none;
+}
+#prod31{
+    display: none;
+}
+#prod32{
+    display: none;
+}
+#prod33{
+    display: none;
+}
+#prod34{
+    display: none;
+}
+#prod35{
+    display: none;
+}
+#prod36{
+    display: none;
+}
+#prod37{
+    display: none;
+}
+#prod38{
+    display: none;
+}
+#prod39{
+    display: none;
+}
+#prod40{
+    display: none;
+}
+#prod41{
+    display: none;
+}
+#prod42{
+    display: none;
+}
+#prod43{
+    display: none;
+}
+#prod44{
+    display: none;
+}
+#prod45{
+    display: none;
+}
+#prod46{
+    display: none;
+}
+#prod47{
+    display: none;
+}
+#prod48{
+    display: none;
+}
+#prod49{
+    display: none;
+}
+#prod50{
+    display: none;
+}
+#prod51{
+    display: none;
+}
+#prod52{
+    display: none;
+}
+#prod53{
+    display: none;
+}
+#prod053{
+    display: none;
+}
+#prod54{
+    display: none;
+}
+#prod55{
+    display: none;
+}
+#prod56{
+    display: none;
+}
+#prod57{
+    display: none;
+}
+#prod58{
+    display: none;
+}
+#prod59{
+    display: none;
+}
+#prod60{
+    display: none;
+}
+#prod61{
+    display: none;
+}
+#prod62{
+    display: none;
+}
+#prod63{
+    display: none;
+}
+#prod64{
+    display: none;
+}
+#prod65{
+    display: none;
+}
+#prod66{
+    display: none;
+}
+#prod67{
+    display: none;
+}
+#prod68{
+    display: none;
+}
+#prod69{
+    display: none;
+}
+#prod70{
+    display: none;
+}
+#prod71{
+    display: none;
+}
+#prod72{
+    display: none;
+}
+#prod73{
+    display: none;
+}
+#prod74{
+    display: none;
+}
+#prod75{
+    display: none;
+}
+#prod76{
+    display: none;
+}
+#prod77{
+    display: none;
+}
+#prod78{
+    display: none;
+}
+#prod79{
+    display: none;
+}
+#prod80{
+    display: none;
+}
+#prod81{
+    display: none;
+}
+#prod82{
+    display: none;
+}
+#prod83{
+    display: none;
+}
+#prod84{
+    display: none;
+}
+#prod85{
+    display: none;
+}
+#prod86{
+    display: none;
+}
+#prod87{
+    display: none;
+}
+#prod88{
+    display: none;
+}
+#prod89{
+    display: none;
+}

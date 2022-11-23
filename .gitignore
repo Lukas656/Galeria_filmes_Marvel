@@ -1,0 +1,7 @@
+Ignorar pastas
+
+A/*
+video/*
+
+ignorar arquivos 
+*.extençao do arquivos : *.txt
